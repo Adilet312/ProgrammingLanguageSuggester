@@ -3,7 +3,7 @@
 
 ## _Description_
 
-_This programm_
+_Programming Language Suggester webpage (using HTML, CSS, JavaScript and jQuery) that asks users a series of questions about themselves and provides a language suggestion based on their answers_
 ___
 
 ## _Language/Framework_
@@ -11,11 +11,9 @@ ___
 * _Html (HyperText Markup Language)_
 * _Css (Cascading Style Sheets)_
 * _Bootstrap (FrontEnd Framework)_
+* _JavaScript language_
+* _JQuery (Frontend JavaScript Framework)_
 
-
-_My web page is static, so it doesn't have backend and database connectivity.In addition, web page can be edit with any text editor and it can be open with any web browser_
-
-___
 
 
 ## _License & copyright_
