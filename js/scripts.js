@@ -15,40 +15,8 @@ $(document).ready(function()
    questionTwo(question2);
    questionThree(question3);
    questionFour(question4);
-   console.log(question4)
-     /*var dataValidation = checkData(userName,question1,question2,question3,question4,question5);
-     if(dataValidation)
-     {
-
-     }
-     else
-     {
-
-     }*/
-     /* Checking user's data*/
-     /*
-     function checkData(user,q_one,q_two,q_three,q_four,q_five)
-     {
-       if(user && q_one && q_two && q_three && q_four && q_five)
-       {
-         if((q_one==='hardware'|| q_one==='software' || q_one==='both')&&
-            (q_two==='big company' || q_two==='small company' ||q_two==='both')
-            && (q_three==='android'||(q_three==='ios')|| q_three==='both'))
-             {
-               return true;
-             }
-         else
-         {
-           return false;
-         }
-       }
-       else
-       {
-         return false;
-       }
 
 
-     }*/
      function name(userN)
      {
        if(userN!="")
@@ -118,6 +86,40 @@ $(document).ready(function()
          $(".box4_Warning").show();
          $(".box4Picture_Warning").show();
        }
+     }
+
+
+
+     /* Checking user's data*/
+
+     function checkData(user,q_one,q_two,q_three,q_four,q_five)
+     {
+       if(user && q_one && q_two && q_three && q_four && q_five)
+       {
+         if((q_one==='hardware'|| q_one==='software' || q_one==='both')&&
+            (q_two==='big company' || q_two==='small company' ||q_two==='both')
+            && (q_three==='android'||(q_three==='ios')|| q_three==='both'))
+             {
+               return true;
+             }
+         else
+         {
+           return false;
+         }
+       }
+       else
+       {
+         return false;
+       }
+
+
+     }
+     var dataValidation = checkData(userName,question1,question2,question3,question4,question5);
+     if(dataValidation)
+     {
+       if((question1==='hardware' && question2==="big company") &&
+        ((question3==='android'||question3==='ios')&&(question4==='math'||question5==='backend'))
+
      }
 
   });
