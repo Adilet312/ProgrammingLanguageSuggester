@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ProgrammingLanguageSuggester</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Programming Language Suggester</h1>
+      <form class="formID">
+
+        <!------------Text box name of the user-------->
+        <div class="form-group">
+          <label for="nameID">Full name:</label>
+          <input class="form-contol" id="nameID"type="text">
+        </div>
+
+        <!-------------Text box question one----------->
+        <div class="form-group">
+          <label for="question_oneID">Do you like more hardware or software ?<br>(Answer supposed to be:"hardware",or "software" or "both".)</label>
+          <input class="form-contol" id="question_oneID"type="text">
+        </div>
+
+         <!------------Text Box question three------------>
+         <div class="form-group">
+           <label for="question_threeID">Would you prefer to work for big company or small start-up?<br>(Answer as: "big company" or "small company" or "both".)</label>
+           <input class="form-contol" id="question_threeID"type="text">
+         </div>
+
+         <!-----------Text Box question four---------------->
+         <div class="form-group">
+           <label for="question_fourID">Do you like "android" or "ios" operation system for phones ?<br>(Answer supposed to be as: "android" or "ios" or "both")</label>
+           <input class="form-contol" id="question_fourID"type="text">
+         </div>
+
+         <!------------Select Box question two----------->
+         <div class="form-group">
+           <label for="question_twoID">What is your favorite subject ?</label>
+           <select class="form-control" id="question_twoID">
+             <option value="">Select</option>
+             <option value="math">Math</option>
+             <option value="english">English</option>
+             <option value="physics">Physics</option>
+             <option value="painting">Painting</option>
+           </select>
+          </div>
+
+          <!------------Select Radio question four-------------->
+          <label for="question_fourID">Do you want to work for which field?<br>(Choose one of the options.)</label>
+          <div class="form-group">
+          <!-----------radio option one------------------------->
+          <div class="radio">
+              <label>
+                <input type="radio" name="field" value="networking" unchecked>
+                Networking
+              </label>
+          </div>
+          <!-----------radio option two------------------------->
+          <div class="radio">
+              <label>
+                <input type="radio" name="field" value="datamanipulating">
+                Data manipulating
+              </label>
+          </div>
+          <!----------radio option three----------------------->
+          <div class="radio">
+              <label>
+                <input type="radio" name="field" value="frontend">
+                Frontend design
+              </label>
+          </div>
+          <!--<span class="radioWarning">You haven't choosen actor<span>
+        </div>
+        <!--------------radio option hour------------------------>
+        <div class="radio">
+            <label>
+              <input type="radio" name="field" value="backend">
+              Backend developing
+            </label>
+        </div>
+        <!--<span class="radioWarning">You haven't choosen actor<span>-->
+      </div>
+
+
+      </form>
+    </div>
+  </body>
+</html>
