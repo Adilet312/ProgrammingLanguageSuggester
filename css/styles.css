@@ -85,11 +85,14 @@ h1
 }
 .lowLevelLanguage{
   display: none;
+  border:5px solid red;
 }
 .highLevelLanguage{
   display:none;
+  border:5px solid red;
 }
 .networkingLanguage
 {
   display: none;
+  border:5px solid red;
 }
