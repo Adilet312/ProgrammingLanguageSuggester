@@ -10,3 +10,76 @@ h1
   text-align: center;
 
 }
+.box1_Warning
+{
+  display: none;
+  color: red;
+}
+.box1Picture_Warning
+{
+  display:none;
+
+}
+.box1Picture_Accepting
+{
+  display: none;
+}
+
+.box2_Warning
+{
+  display: none;
+  color:red;
+}
+.box2Picture_Warning
+{
+  display:none;
+
+}
+.box2Picture_Accepting
+{
+  display: none;
+}
+.box3_Warning
+{
+  display: none;
+  color:red;
+}
+.box3Picture_Warning
+{
+  display:none;
+
+}
+.box3Picture_Accepting
+{
+  display: none;
+}
+
+.box4_Warning
+{
+  display: none;
+  color: red;
+}
+.box4Picture_Warning
+{
+  display:none;
+
+}
+.box4Picture_Accepting
+{
+  display: none;
+}
+
+.boxName_Warning
+{
+  display: none;
+  color: red;
+}
+.boxNamePicture_Warning
+{
+  display:none;
+
+}
+.boxNamePicture_Accepting
+{
+  display: none;
+}
