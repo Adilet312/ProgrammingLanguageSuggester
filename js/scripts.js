@@ -117,8 +117,23 @@ $(document).ready(function()
      var dataValidation = checkData(userName,question1,question2,question3,question4,question5);
      if(dataValidation)
      {
-       if((question1==='hardware' && question2==="big company") &&
-        ((question3==='android'||question3==='ios')&&(question4==='math'||question5==='backend'))
+       if( (question1==='hardware' && question2==="big company") &&
+           ((question3==='android'||question3==='ios')&&(question4==='math'||question5==='backend')))
+        {
+          $(".lowLevelLanguage").show();
+        }
+        else if(
+               (question1==='software' && question2==='small company')&&
+               (question3==='android'||question4==='english')         &&
+               (question5==='frontend')
+               )
+               {
+                 $(".highLevelLanguage").show();
+               }
+        else
+        {
+          $(".networkingLanguage").show();
+        }
 
      }
 
